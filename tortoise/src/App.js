@@ -124,8 +124,8 @@ function App() {
     <div className="App">
       <div className="game__heading">Type The Alphabet</div>
       <div className="game__subheading">
-        Typing Game to see how fast you can type. <br /> Timer starts as soon as
-        you type first letter.
+        Typing Game to see how fast you can type.  Timer starts as soon as
+        you type first letter. 0.5 seconds penalty for every wrong answer
       </div>
       <div className="alphabet__container">
         {count === 20 ? winningText : text}

@@ -87,3 +87,13 @@
   color: white;
   margin-top: 8px;
 }
+
+@media only screen and (max-width: 600px) {
+ .alphabet__container{
+  width: 80%;
+ }
+
+ .user__input__container{
+  width: 50%;
+ }
+}
