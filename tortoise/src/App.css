@@ -1,0 +1,89 @@
+.App{
+  background-color: #0a1853;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game__heading{
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.game__subheading{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top:30px;
+  margin-bottom: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.alphabet__container{
+  width: 30%;
+  height: 100px;
+  background-color: white;
+  color: #14953f;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.timer__container{
+  display: block;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.user__input__container{
+  border: none;
+  height: 30px;
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.name1__container{
+  color: white;
+  margin-bottom: 8px;
+  border: none;
+  
+}
+.name__container{
+  color: white;
+  margin-bottom: 8px;
+  border: none; 
+}
+.name__container:focus{
+  border: none;
+}
+.button__container{
+  border: none;
+  margin-top: 9px;
+  padding: 5px 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid green;
+  border-radius: 10px;
+  font-size: 12px;
+
+}
+
+.button__container:hover{
+  font-size: 15px;
+  transition: .2s;
+}
+
+.score__container{
+  color: white;
+  margin-top: 8px;
+}
